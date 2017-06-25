@@ -1,0 +1,4 @@
+[05-Jun-2017 18:29:47 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/baynaodo/public_html/baynao.com.do/trialty/images/propiedades/thumbnail.php on line 5
+[05-Jun-2017 18:29:47 UTC] PHP Warning:  imagecreatefromjpeg(): '050620170610.jpg' is not a valid JPEG file in /home/baynaodo/public_html/baynao.com.do/trialty/images/propiedades/thumbnail.php on line 5
+[05-Jun-2017 18:29:47 UTC] PHP Warning:  imagecopy() expects parameter 2 to be resource, boolean given in /home/baynaodo/public_html/baynao.com.do/trialty/images/propiedades/thumbnail.php on line 18
+[05-Jun-2017 18:29:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/baynaodo/public_html/baynao.com.do/trialty/images/propiedades/thumbnail.php:5) in /home/baynaodo/public_html/baynao.com.do/trialty/images/propiedades/thumbnail.php on line 20
