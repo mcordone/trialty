@@ -1,0 +1,10 @@
+<?php
+    session_start();
+   /* 
+	unset($_SESSION["usuario"]);
+	unset($_SESSION["usuario_nombre"]);	
+	*/
+	session_destroy();
+    //session_destroy("usuario",0);
+    header("location:index.php?logout");
+    ?>
