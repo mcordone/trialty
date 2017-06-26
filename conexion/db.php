@@ -2,10 +2,8 @@
 
 include('config.php');
 
-
-
-mysql_connect($dbhost, "root", "") or die(mysql_error()) ;
-mysql_select_db("trialty") or die(mysql_error()) ;
+/*mysql_connect($dbhost, "root", "") or die(mysql_error()) ;
+mysql_select_db("trialty") or die(mysql_error()) ;*/
 
 
 function conectar()
@@ -19,6 +17,5 @@ function desconectar()
 {
 	mysql_close();
 }
-
 
 ?>

@@ -1,22 +1,14 @@
 <?php
-
-/**
- * @author Vladimir Arias
- * @copyright 2011
- */
-echo "**** CONFIG FROM ROOT DIR";
-
+/*
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "root";
 $dbbase = "baynaodo_trialty";
+*/
 
-
-/*
-$dbhost = "localhost";
-$dbuser = "baynaodo_naybe";
-$dbpass = "134679258Crazy@";
-$dbbase = "baynaodo_trialty";
-/*
-
+$dbhost = $_SERVER['RDS_HOSTNAME'];
+$dbuser = $_SERVER['RDS_USERNAME'];
+$dbpass = $_SERVER['RDS_PASSWORD'];
+$dbbase = $_SERVER['RDS_DB_NAME'];
+$dbport = $_SERVER['RDS_PORT'];
 ?>
